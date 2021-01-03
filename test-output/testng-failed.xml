@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test">
+    <classes>
+      <class name="E2EFramework.TC01_LandingPageTest"/>
+      <class name="E2EFramework.TC02_CricketTeamsPasgeTest"/>
+      <class name="E2EFramework.TC03_ValidateFooterTest"/>
+      <class name="E2EFramework.TC04_AmazonLandingTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="E2EFramework.TC03_ValidateFooterTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- E2EFramework.TC03_ValidateFooterTest -->
+      <class name="E2EFramework.TC02_CricketTeamsPasgeTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- E2EFramework.TC02_CricketTeamsPasgeTest -->
+      <class name="E2EFramework.TC01_LandingPageTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="validateTeamsLinks"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- E2EFramework.TC01_LandingPageTest -->
+      <class name="E2EFramework.TC04_AmazonLandingTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- E2EFramework.TC04_AmazonLandingTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

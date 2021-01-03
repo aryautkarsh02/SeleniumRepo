@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="17" passed="16" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-01T16:42:31Z" name="Suite" finished-at="2021-01-01T16:44:18Z" duration-ms="106605">
+    <groups>
+    </groups>
+    <test started-at="2021-01-01T16:42:31Z" name="Test" finished-at="2021-01-01T16:44:18Z" duration-ms="106605">
+      <class name="E2EFramework.TC01_LandingPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EFramework.TC01_LandingPageTest@4f80542f]" started-at="2021-01-01T22:12:32Z" name="initialize" finished-at="2021-01-01T22:12:36Z" duration-ms="4933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateLogoTitle()[pri:0, instance:E2EFramework.TC01_LandingPageTest@4f80542f]" started-at="2021-01-01T22:12:36Z" name="validateLogoTitle" finished-at="2021-01-01T22:12:43Z" duration-ms="6760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoTitle -->
+        <test-method signature="validateNewsDropdownLinks()[pri:0, instance:E2EFramework.TC01_LandingPageTest@4f80542f]" started-at="2021-01-01T22:12:43Z" name="validateNewsDropdownLinks" finished-at="2021-01-01T22:12:45Z" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewsDropdownLinks -->
+        <test-method signature="validateTeamsLinks()[pri:0, instance:E2EFramework.TC01_LandingPageTest@4f80542f]" started-at="2021-01-01T22:12:45Z" name="validateTeamsLinks" finished-at="2021-01-01T22:12:46Z" duration-ms="1245" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lists differ at element [13]: Belgium != Italy expected [Belgium] but found [Italy]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lists differ at element [13]: Belgium != Italy expected [Belgium] but found [Italy]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:533)
+	at E2EFramework.TC01_LandingPageTest.validateTeamsLinks(TC01_LandingPageTest.java:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTeamsLinks -->
+        <test-method signature="validateTopBarLinks()[pri:0, instance:E2EFramework.TC01_LandingPageTest@4f80542f]" started-at="2021-01-01T22:12:46Z" name="validateTopBarLinks" finished-at="2021-01-01T22:12:46Z" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTopBarLinks -->
+        <test-method signature="validateHeadings()[pri:1, instance:E2EFramework.TC01_LandingPageTest@4f80542f]" started-at="2021-01-01T22:12:46Z" name="validateHeadings" finished-at="2021-01-01T22:12:47Z" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeadings -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFramework.TC01_LandingPageTest@4f80542f]" started-at="2021-01-01T22:12:47Z" name="tearDown" finished-at="2021-01-01T22:12:47Z" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EFramework.TC01_LandingPageTest -->
+      <class name="E2EFramework.TC03_ValidateFooterTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EFramework.TC03_ValidateFooterTest@121314f7]" started-at="2021-01-01T22:13:17Z" name="initialize" finished-at="2021-01-01T22:13:20Z" duration-ms="3261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateFooterLinks()[pri:1, instance:E2EFramework.TC03_ValidateFooterTest@121314f7]" started-at="2021-01-01T22:13:20Z" name="validateFooterLinks" finished-at="2021-01-01T22:13:48Z" duration-ms="28353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFooterLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFramework.TC03_ValidateFooterTest@121314f7]" started-at="2021-01-01T22:13:48Z" name="tearDown" finished-at="2021-01-01T22:13:48Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EFramework.TC03_ValidateFooterTest -->
+      <class name="E2EFramework.TC02_CricketTeamsPasgeTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EFramework.TC02_CricketTeamsPasgeTest@60bd273d]" started-at="2021-01-01T22:12:47Z" name="initialize" finished-at="2021-01-01T22:12:51Z" duration-ms="3324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateHeadings()[pri:1, instance:E2EFramework.TC02_CricketTeamsPasgeTest@60bd273d]" started-at="2021-01-01T22:12:51Z" name="validateHeadings" finished-at="2021-01-01T22:13:02Z" duration-ms="11320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeadings -->
+        <test-method signature="verifyTeamCategories()[pri:2, instance:E2EFramework.TC02_CricketTeamsPasgeTest@60bd273d]" started-at="2021-01-01T22:13:02Z" name="verifyTeamCategories" finished-at="2021-01-01T22:13:02Z" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTeamCategories -->
+        <test-method signature="validateTwitterWidget()[pri:3, instance:E2EFramework.TC02_CricketTeamsPasgeTest@60bd273d]" started-at="2021-01-01T22:13:02Z" name="validateTwitterWidget" finished-at="2021-01-01T22:13:08Z" duration-ms="5432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTwitterWidget -->
+        <test-method signature="validateTeamsList()[pri:4, instance:E2EFramework.TC02_CricketTeamsPasgeTest@60bd273d]" started-at="2021-01-01T22:13:08Z" name="validateTeamsList" finished-at="2021-01-01T22:13:08Z" duration-ms="806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTeamsList -->
+        <test-method signature="validateSearchBox(java.lang.String)[pri:5, instance:E2EFramework.TC02_CricketTeamsPasgeTest@60bd273d]" started-at="2021-01-01T22:13:08Z" name="validateSearchBox" data-provider="dataInSearch" finished-at="2021-01-01T22:13:13Z" duration-ms="4104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchBox -->
+        <test-method signature="validateSearchBox(java.lang.String)[pri:5, instance:E2EFramework.TC02_CricketTeamsPasgeTest@60bd273d]" started-at="2021-01-01T22:13:13Z" name="validateSearchBox" data-provider="dataInSearch" finished-at="2021-01-01T22:13:17Z" duration-ms="4054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[England]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFramework.TC02_CricketTeamsPasgeTest@60bd273d]" started-at="2021-01-01T22:13:17Z" name="tearDown" finished-at="2021-01-01T22:13:17Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EFramework.TC02_CricketTeamsPasgeTest -->
+      <class name="E2EFramework.TC04_AmazonLandingTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EFramework.TC04_AmazonLandingTest@130c12b7]" started-at="2021-01-01T22:13:48Z" name="initialize" finished-at="2021-01-01T22:13:52Z" duration-ms="3256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyMiscAmazon()[pri:1, instance:E2EFramework.TC04_AmazonLandingTest@130c12b7]" started-at="2021-01-01T22:13:52Z" name="verifyMiscAmazon" finished-at="2021-01-01T22:14:04Z" duration-ms="12472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMiscAmazon -->
+        <test-method signature="verifyAmazonPantrySelection()[pri:2, instance:E2EFramework.TC04_AmazonLandingTest@130c12b7]" started-at="2021-01-01T22:14:04Z" name="verifyAmazonPantrySelection" finished-at="2021-01-01T22:14:10Z" duration-ms="5576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonPantrySelection -->
+        <test-method signature="leftNavigationBar()[pri:3, instance:E2EFramework.TC04_AmazonLandingTest@130c12b7]" started-at="2021-01-01T22:14:10Z" name="leftNavigationBar" finished-at="2021-01-01T22:14:13Z" duration-ms="3625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leftNavigationBar -->
+        <test-method signature="validateChangeCountryFunctionality()[pri:4, instance:E2EFramework.TC04_AmazonLandingTest@130c12b7]" started-at="2021-01-01T22:14:13Z" name="validateChangeCountryFunctionality" finished-at="2021-01-01T22:14:17Z" duration-ms="3604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateChangeCountryFunctionality -->
+        <test-method signature="validateCountriesDropdown()[pri:5, instance:E2EFramework.TC04_AmazonLandingTest@130c12b7]" started-at="2021-01-01T22:14:17Z" name="validateCountriesDropdown" finished-at="2021-01-01T22:14:18Z" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCountriesDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFramework.TC04_AmazonLandingTest@130c12b7]" started-at="2021-01-01T22:14:18Z" name="tearDown" finished-at="2021-01-01T22:14:18Z" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EFramework.TC04_AmazonLandingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
